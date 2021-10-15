@@ -4,8 +4,9 @@ class Mentor
   
   def initialize(name)
     self.name = name
+      
   end
-  
+
   def job
     puts "#{self.name}です。私は現役のITプロフェッショナルです。"
   end
@@ -19,7 +20,7 @@ class RailsMentor < Mentor
 end
 
 
-mentor = Mentor.new('煌木')
-mentor.job
-railsMentor = RailsMentor.new('赤出')
-railsMentor.job
+kirameki = Mentor.new('煌木')
+kirameki.job
+akaide = RailsMentor.new('赤出')
+akaide.job
